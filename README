@@ -1,0 +1,33 @@
+1. Project's Title
+
+Binance Triangular arbitrage opportunity finder on binance.
+
+
+
+2. Project Description
+
+Imagine this. You find a fruit shop that will not only sell you fruit, but also buy fruit from you... the buy and sell price isnt quite the same, the shop keeper must pay his rent after all, but it is close. Now, imagine you walk into this shop with 5 bananas. And you notice some price inefficientcyies such that by swapping some bit around, you can actaully walk out the shop, everyone being happy with the trade, with 6 bananas. 
+You sell you 5 banas for 26 cherries. those 26 cherries buy you half a melon. and that half a melon, buys you 6 bananas.
+
+This is arbitrage - trading not on speculation, but inefficientcy.
+
+I have put together a script that identifies these opportunities on the binance crypto exchange.
+
+This is done by first downloading all of the tradable pairs, 
+second, establishing how many sets of 3 way trades can be made on the excahnge
+third, testing each of those 3 way trades to see if there is any price inefficientcy.
+
+stage 4 is just periodically repeating stage 3 - just because an opporunity doesnt exist now, doesnt mean it wont in 1 minute.
+
+The majority of this content was put together by Shaun McDonogh with his Udemy course that can be found: https://www.udemy.com/course/triangular-arbitrage/learn/lecture/30180922#overview, but his course focused on a smaller exchange, poloniex. i have updated the script to run on the worlds largest centralised crypto exchange by volume, binance.
+
+Next steps will be to optimise and then look at automation.
+
+
+
+4. How to Install and Run the Project
+
+This project doesnt not require any additional modules or libraries. download all the .py file and run the main file. it will take some time (maybe 15 minutes, maybe more) to generate all the possible lists, but it will keep going for as long as the script is running.
+
+
+
